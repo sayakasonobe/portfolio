@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="s.png" />
+    
+    <title>Sayaka Sonobe</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var headerHight = 100;
+        $('a[href^=#]').click(function(){
+            var speed = 500;
+           var href= $(this).attr("href");
+            var target = $(href == "#" || href == "" ? 'html' : href);
+            var position = target.offset().top;
+            $("html, body").animate({scrollTop:position}, speed, "swing");
+            return false;
+            });
+        });
+        
+       
+    </script>
+</head>
+<body>
+ 
+ 
+  
+  <div id="header">
+     <div class="header-inner">
+     <a href="index.html#fusen">
+        <img src="sayaka.png" height="50">
+         <img src="sayakasonobe.png" height="50"></a>
+      <nav>
+          <ul>
+             <li class="about"><a href="#fusen">TOP</a></li>
+              <li class="fusen"><a href="http://fusen.webcrow.jp/index.html">fusen.</a></li>
+              <li class="whk"><a href="whk.html">WHK</a></li>
+              <li class="lifeistech"><a href="lifeistech.html">Life is Tech!</a></li>
+          </ul>
+      </nav>
+      </div>
+  </div>
+    
+   
+   <div id="fusen">
+    <div class="inner1">
+     
+      <p class="content-title"><img src="fusen.png" height="100"></p>
+      <a href="http://fusen.webcrow.jp/index.html"><img class="logo" src="fusenlogo.png" width="200"></a>
+          <div class="right-box">
+          <p class="concept">”楽しいを「fusen.」しよう。”</p>
+              <p>付箋のように、毎日の中に「楽しい」を付け足したい！そんな思いで女子大生2人が雑貨づくりをするブランドです。 </p>
+            <p>美大生じゃなくて普通の大学生だからできることをしようと、デザインフェスタへの出展を目指して１年間活動してきました。私はWEBサイトの作成・手芸中心の商品デザインを、彼女は主に紙媒体の商品デザインを中心に分担をし、二人で毎週会議を重ねて作り上げていきました。得意分野は違くても、ものづくりが好きな２人でブランディング、商品生産、広報を行いました。</p>
+            <div class="fusen-link"><p>公式サイト</p><a href="http://fusen.webcrow.jp/index.html"></a></div>
+            <p>デザインフェスタ vol.41でアートニュースサイトbitechoさんに取材していただきました。記事は<a href="http://bitecho.me/2015/06/07_96.html">こちら</a>から。</p>
+            
+          
+      </div>
+       </div>
+       
+   </div>
+   
+   <div id="whk">
+       <p class="content-title"><img class="content-title" src="whk.png" height="100"></p>
+       <div class="inner900">
+       <ul class="list">
+          
+           <li class="grow box box1">
+
+          <a href="whk.html#whk01"><p>大学生M-1グランプリ2015</p><img src="m-1.png" alt=""></a></li>
+           
+           
+           <li class="grow box box2"><a href="whk.html#whk02"><img src="enji.png" alt=""></a></li>
+           
+           
+           <li class="grow box box3"><a href="whk.html#whk0304"><img src="dancex.png" alt=""></a></li>
+           
+           </ul>
+           
+        <ul class="list">
+        
+          
+           <li class="grow box box4"><a href="whk.html#whk0304"><img src="sinkan0.jpg" alt=""></a></li> 
+           
+
+           <li class="grow box box5"><a href="whk.html#whk0506"><img src="moriage.png" alt=""></a></li> 
+           
+           <li class="grow box box6"><a href="whk.html#whk0506"><img src="mynx.png" alt=""></a></li> 
+           
+        </ul>
+     
+      </div>      
+       
+   </div>
+   
+   <div id="lifeistech">
+      <div class="inner900">
+       <p class="content-title"><img class="content-title" src="lifeistech!.png" height="100">
+       </p>
+       <div class="lit-box">
+      <a href="lifeistech.html#lifeistech1"><img src="usj.png" width="445"></a>
+      
+      
+          <a href="lifeistech.html#lifeistech2"><img src="rice.png" width="445"></a>
+          </div>
+         
+      </div>
+      </div>
+      
+    <div id="footer">
+<p>copyright Sayaka Sonobe all rights reserved.	</p>
+</div>
+
+    
+       
+    
+   
+   
+   
+    
+</body>
+</html>

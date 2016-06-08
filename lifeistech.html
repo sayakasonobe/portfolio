@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="s.png" />
+    
+    <title>Sayaka Sonobe</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var headerHight = 100;
+        $('a[href^=#]').click(function(){
+            var speed = 500;
+           var href= $(this).attr("href");
+            var target = $(href == "#" || href == "" ? 'html' : href);
+            var position = target.offset().top;
+            $("html, body").animate({scrollTop:position}, speed, "swing");
+            return false;
+            });
+        });
+        
+   
+    </script>
+    
+    <style type="text/css">  
+     .lifeistech a {
+    border-bottom: 3px solid #154F8B;
+} 
+</style>
+
+</head>
+<body>
+ 
+ 
+  
+  <div id="header">
+     <div class="header-inner">
+     <a href="index.html#fusen">
+        <img src="sayaka.png" height="50">
+         <img src="sayakasonobe.png" height="50"></a>
+      <nav>
+          <ul>
+              <li class="about"><a href="index.html#fusen">TOP</a></li>
+              <li class="fusen"><a href="http://fusen.webcrow.jp/index.html">fusen.</a></li>
+              <li class="whk"><a href="whk.html">WHK</a></li>
+              <li class="lifeistech"><a href="lifeistech.html">Life is Tech!</a></li>
+          </ul>
+      </nav>
+      </div>
+  </div>
+   
+   <div id="lifeistech1">
+
+       <p class="content-title"><img class="content-title" src="001.png" height="120"><br></p>
+    
+     <div class="inner3"> 
+     <div class="lit">
+      <iframe width="400" height="225" src="https://www.youtube.com/embed/FlxjZIOFJqw" frameborder="0" allowfullscreen></iframe></div>
+            
+
+                   <div class="under-box"><p>
+                       &nbsp;&nbsp;&nbsp;「Life is Tech! summer camp」とは夏休みに中高生がプログラミングを学ぶキャンプです。私はLife is Tech!でWebデザインコースとデザイナーコースの大学生メンターをしています。この動画は、2015/8/10から8/14に東京大学で開催されたキャンプの発表動画です。プログラミング経験のないメンバーも最終日にはオリジナルのサイトを作って、自分自身で発表をします。オープニング部分は私が作ったもので、0:50からはメンバーたちの作品です。
+                   </p>
+               </div>
+        
+        </div>
+       
+</div>
+   
+   <div id="lifeistech2">
+           
+           <p class="content-title"><img class="content-title" src="002.png" height="120"><br></p>
+    <div class="whk01">
+                <div class="inner1">
+
+                <a href="http://sayakasonobe.github.io/rice/"><img src="lifeisricedata.png" width="200"></a>
+                   <div class="right-box1"><p>&nbsp;&nbsp;&nbsp;「Life is ◯◯◯!」をテーマに学生向けのサイトを作るという課題で、朝ごはんの大切さを学生に伝える「Life is Rice!」というWEBサイトを作りました。朝ごはんを食べずに一日を過ごしている学生は約20％もいると言われています。そのような学生が朝ごはんを食べようと思うきっかけになれば良いなと思い、簡単に実践できる朝ごはんのお供や、おすすめサイトも紹介をしました。</p>
+                       <div class="sitelink1"><a href="http://sayakasonobe.github.io/rice/">Life is Rice!</a></div>
+               </div>
+          </div>
+       </div>          
+</div>
+   
+   <div id="footer">
+<p>copyright Sayaka Sonobe all rights reserved.	</p>
+</div>
+    
+   
+       
+</body>
+</html>

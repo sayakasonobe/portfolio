@@ -1,0 +1,462 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    color:#000;
+    line-height: 150%;
+}
+
+body{
+    width: 100%;
+}
+
+.container{
+    width: 1050px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#header{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    padding: 6px 0px;
+    position: fixed;
+    z-index: 2;
+}
+
+.header-inner{
+    width: 800px;
+}
+
+#header img{
+    float:left;
+    margin-right: 10px;
+}
+
+nav{
+    overflow: hidden;
+    padding-left: 300px;
+    position: absolute;
+}
+
+nav ul{
+    padding-left: 100px;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+    margin-top: 2px;
+}
+
+nav a{
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    margin: 15px 16px 0px;
+    transition: 0.3px;
+}
+
+
+#wrapper{
+    width: 1000px;
+}
+
+.about a:hover{
+    border-bottom: 3px solid #000;
+}
+.fusen a:hover{
+    border-bottom: 3px solid #F4D723;
+}
+.whk a:hover {
+    border-bottom: 3px solid #E84441;
+}
+.lifeistech a:hover{
+    border-bottom: 3px solid #154F8B;
+}
+
+p.content-title{
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+p img{
+    text-align: center;
+}
+
+.inner1{
+    width: 950px;
+}
+.concept{
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fusen-link{
+    float: right;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.fusen-link p{
+    font-size: 2px;
+    text-align: right;
+}
+
+.fusen-link a {
+    width: 150px;
+    height: 45px;
+    background: url("fusen0.svg") no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+.fusen-link a:hover{
+    background: url("fusen1.svg") no-repeat;
+}
+
+.logo{
+    float: left;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.right-box{
+    float: left;
+    padding-top: 10px;
+    width: 700px;
+}
+
+#about{
+    height: 400px;
+    padding-top: 50px;
+}
+
+#fusen{
+    height: 500px;
+    background: #F4D723;
+    padding-top: 50px;
+    
+}
+
+
+
+#whk{
+    padding-top: 20px;
+    height: 800px;
+    border-left: 15px solid #E84441;
+    margin: 0 auto;
+}
+
+
+
+.box{
+    float: left;
+    background: #fff;
+    padding: 5px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.inner900{
+    width: 930px;
+    margin: 0 auto;
+}
+
+
+.list{
+    list-style-type: none;
+	overflow: hidden;
+    margin: 0 auto;
+    
+}
+li {
+   float: left;
+    transition: .8s;
+}
+
+
+.box img{
+    width: 300px;
+    transition: 0.3s ;
+}
+
+.box img:hover{
+    opacity: 0.5;
+    
+}
+
+.box p{
+    text-align: center;
+    position: absolute;
+    padding-top: 100px;
+    margin: 0 auto;
+    opacity:1;
+    transition: 0.3s;    
+}
+
+.box p:hover{
+    text-align: center;
+    position: absolute;
+    padding-top: 100px;
+    margin: 0 auto;
+    opacity:0;
+    
+}
+
+.inner2{
+    width: 780px;
+    margin: 0 auto;
+}
+
+.inner3{
+    width: 850px;
+    margin: 0 auto;
+}
+
+#lifeistech{
+    height: 450px;
+    padding-top: 30px;
+    border-left: 15px solid #154F8B;
+    
+}
+.lit-box{
+    width: 930px;
+    margin: 0 auto;
+}
+.lit-box img{
+    float: left;
+    padding: 10px;
+}
+.lit-box img:hover{
+    opacity: 0.5;
+}
+
+
+.right-box1{
+    float: left;
+    width: 600px;
+    height: 255px;
+}
+
+.right-box1 p{
+    width: 600px;
+}
+
+.small p{
+    font-size: 5px;
+}
+
+.box img{
+    margin: 0 auto;
+    float: left;
+}
+
+
+
+.whk01 p{
+    padding: 20px;
+}
+
+.whk01 img{
+    margin: 0 auto;
+    float: left;
+    padding: 20px;
+}
+
+.sitelink{
+    margin-top: 20px;
+}
+
+.sitelink a{
+    font-size: 16px;
+    padding: 12px 150px;
+    margin-left: 30px;
+    background: #E84441;
+    color: #f9f9f9;
+    border: 2px solid #E84441;
+    text-decoration: none;
+    
+}
+.sitelink a:hover{
+    background: #f9f9f9;
+    color: #E84441;
+    border: 2px solod #E84441;
+}
+
+.sitelink1{
+    margin-top: 20px;
+}
+.sitelink1 a{
+    font-size: 16px;
+    padding: 12px 225px;
+    margin-left: 30px;
+    background: #154F8B;
+    color: #f9f9f9;
+    border: 2px solid #154F8B;
+    text-decoration: none;
+    
+}
+.sitelink1 a:hover{
+    background: #f9f9f9;
+    color: #154F8B;
+    border: 2px solod #154F8B;
+}
+
+#whk01{
+    padding-top: 40px;
+    height: 500px;
+    border-left: 15px solid #E84441;
+    background: #f9f9f9;
+}
+
+#whk02{
+    padding-top: 20px;
+    height: 800px;
+    border-left: 15px solid #E84441;   
+}
+
+#whk0304{
+    padding-top: 20px;
+    height: 800px;
+    border-left: 15px solid #E84441; 
+    background: #f9f9f9;
+}
+
+#whk0506{
+    padding-top: 20px;
+    height: 800px;
+    border-left: 15px solid #E84441; 
+    position: relative;
+}
+
+#whk03{
+    width: 400px;
+    float: left;
+}
+
+#whk04{
+    width: 600px;
+    float: left;
+}
+
+.whk03{
+    margin: 0 auto;
+}
+
+
+#whk05{
+    padding-top: 20px;
+    height: 680px;
+    border-left: 15px solid #E84441;   
+}
+
+.under-box{
+    float: left;
+    width: 780px;
+    padding-top: 20px;
+}
+
+.under-box1{
+    float: left;
+    width: 400px;
+}
+
+.whk02 img{
+    margin: 0 auto;
+    float: left;
+    padding: 20px;
+}
+
+
+.whk03 p{
+    padding: 30px;
+    padding-top: 15px;
+}
+
+.inner4{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.whk04 p{
+    padding: 30px;
+    padding-top: 15px;
+}
+
+.under-box5{
+    width: 550px;
+}
+
+.whk06 p{
+    padding-top: 15px;
+}
+
+p.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #154F8B;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+    font-style: 25px;
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+    color: #fff;
+    font-size: 12px;
+}
+
+p.circle:hover{
+    opacity: 0.5;
+}
+
+
+
+#lifeistech1{
+    padding-top: 40px;
+    height: 600px;
+    border-left: 15px solid #154F8B;
+    background-color: #f9f9f9;
+}
+
+.lit{
+    margin: 0 auto;
+    width: 400px;
+}
+
+
+#lifeistech2{
+    padding-top: 30px;
+    height: 500px;
+    border-left: 15px solid #154F8B;   
+}
+
+#lifeistech1 .under-box{
+    padding: 25px;
+    width: 800px;
+}
+#lifeistech2 .under-box{
+    padding: 25px;
+    width: 800px;
+}
+
+.lit a:hover{
+    opacity: 0.5;
+}
+
+#footer p{
+    text-align: center;
+    color: lightgray;
+    font-size: 5px;
+}
+
+
+
+
+
+
